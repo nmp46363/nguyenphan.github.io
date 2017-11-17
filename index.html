@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+     <script type="text/javascript">
+      
+       function feedback () {
+        
+        var answer1 = Number (document.querySelector('input[name="q1"]:checked').value);
+        var answer2 = Number (document.querySelector('input[name="q2"]:checked').value);
+        var answer3 = Number (document.querySelector('input[name="q3"]:checked').value);
+        var answer4 = Number (document.querySelector('input[name="q4"]:checked').value);
+        var answer5 = Number (document.querySelector('input[name="q5"]:checked').value);
+        var answer6 = Number (document.querySelector('input[name="q6"]:checked').value);
+        var score = answer1 + answer2 + answer3 + answer4 + answer5 + answer6;
+        
+        
+          if ( score >= 4) {
+          
+          var feedbackphrase ="Oh my god, You're a buffalo chicken baller, your score was " + score + "!";
+          
+        }
+        
+        else {
+          
+          var feedbackphrase = "Uh oh. You're buffalo chicken game is a little weak. Your score was " + score+ ". " + "You may wanna give this page another look.";
+          
+          
+          
+        }
+        
+      
+      var paragraph = document.getElementById("output");
+      paragraph.innerHTML = feedbackphrase }
+       
+      
+      
+      
+      
+      
+      
+      
+      
+     </script>
+     
+  
+  </head>
+  <body>
+    
+    <div class="header">
+    <h1>Hello!</h1>
+    <p> Welcome to my page that's all about learning how to make buffalo chicken dip! It's actually a lot more simple than you'd think! Today, I'm gonna break it down for you in 3 simple steps. </p>
+    </div>
+    <br>
+       <img src=buffchick0.jpg>
+    
+    <br>
+    <br>
+  
+    <div class="table">
+  <h1>What kind of situations would I need to make buffalo chicken in?</h1>
+  <br>
+  <br>
+      <table>
+  <tr>
+    <th>Event</th>
+    <th>Food</th>
+  </tr>
+  <tr>
+    <td>Georgia <Br>
+    Football<br>
+    Game </td>
+    <td>Buffalo <br>
+    Chicken<br>
+    Dip!</td>
+  </tr>
+</table>
+      
+      
+      
+    </div>
+    
+  <br><br>
+      
+
+      
+    
+    <div class="step1">
+      
+      <h1>Step 1:</h1>
+      <h2>Gather your ingredients</h2>
+       <img src=buffchick1.gif>
+      <p>What you'll need:<br>
+      <p2>
+          -1 cup of ranch<br>
+          -1 cup hot sauce<br>
+          -10 oz of cream cheese<br>
+          -2 shredded chicken breasts<br>
+            
+      </p2>
+      </p>
+     
+     
+     <div class="step2">
+      <h1>Step 2:</h1>
+      <h2>Mix it all together</h2>
+      <img src=buffchick2.gif>
+      <p>Mix all ingredients until well blended in a bowl.</p>
+      
+      
+      </div>
+      
+    
+    </div>
+    
+    <div class="step3">
+      <h1>Step 3:</h1>
+      <h2>Spread and bake!</h2>
+      <img src=buffchick3.gif>
+      <p>Spread your mix on a baking pan and bake at 350 degrees for 20 minutes.</p>
+      <br>
+      
+  
+      
+    </div>
+    
+    <h2>Now that you've learned a thing or two about making buffalo chicken dip, you're ready to test your knowledge! Take this 6 question quiz below to see just how much buffalo chicken knowledge you've gained!</h2><br>
+    
+    
+    
+    What is the first step in making buffalo chicken dip?<br>
+    
+  <form>
+  <input type="radio" name="q1" value="0" checked> Boil some water<br>
+  <input type="radio" name="q1" value="0"> Turn on the oven<br>
+  <input type="radio" name="q1" value="1"> Gather your ingredients<br>
+  <input type="radio" name="q1" value="0"> Mix the ingredients
+</form>
+   
+   <br>
+   <br>
+   
+  What is the second step of making buffalo chicken dip?
+   
+     <form>
+  <input type="radio" name="q2" value="1" checked> Mix the ingredients<br>
+  <input type="radio" name="q2" value="0"> Turn on the oven<br>
+  <input type="radio" name="q2" value="0"> Do the cupid shuffle<br>
+  <input type="radio" name="q2" value="0"> Gather your ingredients
+     
+     <br>
+     <br>
+     
+
+What is the third step of making buffalo chicken dip?<br>
+     
+<form>
+  <input type="radio" name="q3" value="0" checked> Gather ingredients <br>
+  <input type="radio" name="q3" value="0"> Cupid shuffle<br>
+  <input type="radio" name="q3" value="0"> Mix the ingredients<br>
+  <input type="radio" name="q3" value="1"> Bake for 20 minutes at 350 degrees
+</form>
+    
+  <br>
+  <br>
+  
+Which of the following is NOT a buffalo chicken dip ingredient?
+  
+  <form>
+  <input type="radio" name="q4" value="0" checked> Chicken<br>
+  <input type="radio" name="q4" value="0"> Cheese<br>
+  <input type="radio" name="q4" value="1"> Raddishes<br>
+  <input type="radio" name="q4" value="0"> Cream cheese
+</form>
+    
+    <br>
+    <br>
+    
+   Which of the following is buffalo chicken best paired with?
+    
+  <form>
+  <input type="radio" name="q5" value="0" checked> Pickles<br>
+  <input type="radio" name="q5" value="1"> Tortilla Chips<br>
+  <input type="radio" name="q5" value="0"> Apples <br>
+  <input type="radio" name="q5" value="0"> Bananas
+</form>
+  
+  <br>
+  <br>
+  
+  What should you do if your buffalo chicken dip doesn't come out perfectly on the first try?
+  
+  <form>
+  <input type="radio" name="q6" value="0" checked> Give up<br>
+  <input type="radio" name="q6" value="0"> Throw a tantrum<br>
+  <input type="radio" name="q6" value="1"> Try again<br>
+  <input type="radio" name="q6" value="0"> Set it on fire
+</form>
+  
+  <br><br><br>
+  
+<p id="output">All done? Click here to see how much you've learned about making buffalo chicken dip!</p><br>
+<button onClick="feedback();">Am I buffalo chicken god?</button>
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
